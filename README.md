@@ -60,7 +60,7 @@ FROM strapi/strapi
 ## Environment variables
 
 - `APP_NAME` to override the `strapi-app` generated folder name (you should also update the volumes paths).
-- `DATABASE_CLIENT` a database providers supported by Strapi: MongoDB, Postgres, MySQL, Sqlite3 and Redis.
+- `DATABASE_CLIENT` a database providers supported by Strapi: MongoDB, Postgres, MySQL, Sqlite3 and Redis. [see docs](https://strapi.io/documentation/3.x.x/cli/CLI.html#strapi-new)
 - `DATABASE_HOST` database service name.
 - `DATABASE_PORT` depends on your database client.
 - `DATABASE_NAME` initializes a database with specific name (default strapi). When using MongoDB, you should also update the `MONGO_INITDB_DATABASE` environment in the db service.
